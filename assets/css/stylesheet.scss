@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap");
+@import url("../icons/themify-icons/themify-icons.css");
+@import url("../icons/boxicons/css/boxicons.min.css");
+
+* {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  font-family: "Oxygen", sans-serif;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+#response {
+  position: fixed;
+  top: 10px;
+  width: 300px;
+  right: 20px;
+  z-index: 2000;
+}
+
+.custom-alert {
+  margin-bottom: 5px;
+  background: #222;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+}
+
+.custom-alert .custom-alert-body {
+  display: flex;
+  align-items: center;
+}
+
+.custom-alert .custom-alert-body .custom-alert-icon-error {
+  margin: 0 8px;
+  background-color: #e61e25;
+  color: white;
+  padding: 8px;
+  border-radius: 50px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+}
+
+.custom-alert .custom-alert-body .custom-alert-icon-warning {
+  margin: 0 8px;
+  background-color: #f8a527;
+  color: white;
+  padding: 8px;
+  border-radius: 50px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+}
+
+.custom-alert .custom-alert-body .custom-alert-icon-success {
+  margin: 0 8px;
+  background-color: #00b7b1;
+  color: white;
+  padding: 8px;
+  border-radius: 50px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+}
+
+.custom-alert .custom-alert-body .custom-alert-content .custom-alert-heading {
+  color: white;
+  margin-top: 5px;
+  margin-bottom: 8px;
+  font-size: 13px;
+}
+
+.custom-alert
+  .custom-alert-body
+  .custom-alert-content
+  .custom-alert-subheading {
+  margin: 0;
+  margin-bottom: 5px;
+  font-size: 12px;
+}
+
+.custom-alert .alert-close {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 50px;
+  margin-left: auto;
+  margin-right: 5px;
+}
+
+@import "components/common";
